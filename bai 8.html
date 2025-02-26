@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num1 = +prompt("Nhập số thứ 1");
+        let num2 = +prompt("Nhập số thứ 2");
+        let num3 = +prompt("Nhập số thứ 3");
+        let soLonNhat
+        
+        if(num1 > num2 && num1 > num3){
+    soLonNhat = num1;
+    document.write(`Số lớn nhất trong 3 số là số thứ nhất: ${soLonNhat}`);
+    }else if( num2 > num3){
+    soLonNhat = num2;
+    document.write(`Số lớn nhất trong 3 số là số thứ hai: ${soLonNhat}`)
+    }else {
+    soLonNhat = num3;
+    document.write(`Số lớn nhất trong 3 số là số thứ ba: ${soLonNhat}`);
+    }
+    </script>
+</body>
+</html>
